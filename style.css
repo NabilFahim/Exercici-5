@@ -1,1 +1,28 @@
+.parallax {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 1px;
+  position: relative;
+}
 
+.background {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 100px 0;
+  text-align: center;
+}
